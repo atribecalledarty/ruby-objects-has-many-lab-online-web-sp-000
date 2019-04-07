@@ -7,7 +7,7 @@ class Author
   end
   
   def add_post(post_instance)
-  #  post_instance.author = self
-  #  @posts << post_instance
+    post_instance.author = self
+    @posts << post_instance
   end
 end
